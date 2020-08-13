@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWebsite</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Roboto:ital,wght@0,100;0,500;1,300&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/sec.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   </head>
+<body>
+    <div class="container firstSection">
+        <h1>Bookmarker</h1>
+        <div class="line"></div>
+        
+    </div>
+    <div class="container secSection p-3" >
+        <div class="mark text-center">
+          <h2>Bookmark your favorite sites</h2>
+          <form class="form-group">
+              <label for="bookmarkUser">Site Name</label>
+              <input class="form-control p-4 mb-3" type="text" name="" id="bookmarkUser" name="bookmarkUser" placeholder="bookmarkName">
+              <div class="massege text-center" id="massage1"> Name is required</div>
+              <label for="websiteUser">Site URL</label>
+              <input class="form-control  p-4"  type="text" name="" id="websiteUser" name="websiteUser" placeholder="websiteURL">
+              <div class="massege text-center" id="massage2">Url Field is required </div>
+          </form>
+          <button class="btn btn btn-primary" id="submit" onclick="addProduct()">Sumbmit</button>
+        </div>
+         <div id="items"></div>
+         
+       
+        
+        <div class="line"></div>
+    </div>
+  
+   
+    
+
+    <script src="js/sec.js"></script>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html> 
